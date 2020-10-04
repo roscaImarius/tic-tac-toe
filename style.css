@@ -1,0 +1,59 @@
+body{
+    
+    background-color: rgb(254, 255, 255);
+    text-align: center;
+    line-height: 1px;
+    display: flex;
+  
+
+}
+
+.secth1{
+    font-size: 55px;
+    color: rgb(43, 38, 38);
+}
+
+.sectt {
+      text-align: center;
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+  
+
+}
+.xo{
+    width: 450px;
+    height: 450px;
+    border: 5px solid black;
+    margin: 20px auto;
+    /* position: relative; */
+    
+}
+.grid{
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 2px;
+    
+}
+.imgs {
+    border: 2px solid black;
+
+}
+.imgs:hover {
+    opacity: 0.6;
+}
+
+.score {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+}
+
+
+.score .p1, .p2 {
+    color: rgb(4, 4, 70);
+}
+
